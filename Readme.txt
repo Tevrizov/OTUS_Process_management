@@ -26,6 +26,7 @@
     tep@tep-HYM-WXX:~/OTUS/15. Управление процессами$ 
 
 
+
 1.2 Запускаю ВМ.
     tep@tep-HYM-WXX:~/OTUS/15. Управление процессами$ vagrant status
     Current machine states:
@@ -39,11 +40,13 @@
     tep@tep-HYM-WXX:~/OTUS/15. Управление процессами$ 
 
 
+
 1.3 Подключаюсь к ВМ
     tep@tep-HYM-WXX:~/OTUS/15. Управление процессами$ vagrant ssh default
     Last login: Tue May 14 08:54:27 2024 from 10.0.2.2
     vagrant@ubuntu2204:~$ sudo -i
     root@ubuntu2204:~# 
+
 
 
 1.4 Проверка работы скрипта ps.sh / скрипт обрабатывает содержимое файла /proc/*/status 
